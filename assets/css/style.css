@@ -7,6 +7,11 @@ body {
     background-color: cornsilk;
 }
 
+
+.bg-naranja {
+    color:orangered;
+}
+
 .height-50 {
     height: 50px;
 }
