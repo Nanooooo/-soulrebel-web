@@ -1,0 +1,30 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+.bg-cornsilk {
+    background-color: cornsilk;
+}
+
+.height-50 {
+    height: 50px;
+}
+
+.height-150 {
+    height: 150px;
+}
+
+.img-bandera {
+    height: 30px;
+    width: 50px;
+}
+
+.img-logo {
+    height: 125px;
+    width: 150px;
+}
+
+.color-texto-negro {
+    color: black;
+}
