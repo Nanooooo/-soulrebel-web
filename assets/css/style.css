@@ -15,6 +15,11 @@ body {
     height: 150px;
 }
 
+.width-1820 {
+    width: 1820px;
+}
+
+
 .img-bandera {
     height: 30px;
     width: 50px;
@@ -42,6 +47,24 @@ body {
 
 }
 .img-palmera{
+    height: 500px;
+    width: 525px;
+
+
+}
+.img-palmera2{
+    height: 500px;
+    width: 525px;
+
+
+}
+.img-soul{
+    height: 500px;
+    width: 525px;
+
+
+}
+.img-gorro{
     height: 500px;
     width: 525px;
 
