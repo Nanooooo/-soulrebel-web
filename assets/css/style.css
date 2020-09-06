@@ -1,11 +1,21 @@
 body {
     background-color: black;
+    
     color: white;
 }
 
-.bg-cornsilk {
+.colorgris {
+    background-color: #131313;
+    
+    color: white;
+}
+
+
+
+.bg-cornsilk {  
     background-color: cornsilk;
 }
+
 
 
 .bg-naranja {
@@ -75,3 +85,9 @@ body {
 
 
 }
+
+.verticalLine {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    border-left: thick solid cornsilk;
+  }
