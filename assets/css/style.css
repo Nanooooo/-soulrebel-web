@@ -54,10 +54,16 @@ body {
     height: 140px;
     width: 150px;
 }
+.color-texto-gris {
+    color: #E9E9E9;
+}
 
 .color-texto-negro {
     color: black;
+
 }
+
+
 
 .img-conejo{
     height: 500px;
