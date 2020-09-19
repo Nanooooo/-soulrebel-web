@@ -25,13 +25,6 @@ body {
    color: #595959;
 }
 
-
-
-
-.bg-naranja {
-  color:  #C25209;
-}
-
 .height-50 {
     height: 50px;
 }
@@ -98,8 +91,6 @@ body {
 .img-gorro{
     height: 500px;
     width: 525px;
-
-
 }
 
 .verticalLine {
@@ -108,3 +99,21 @@ body {
     border-left: thick solid cornsilk;
   }
 
+  .espacio{
+   padding: 11px 17px;
+}
+
+.espacio1{
+    padding: 10px 19px;
+ }
+ 
+ //////espacio-redes
+     display: flex;
+    justify-content: space-evenly;
+ 
+    ///
+
+
+   
+
+     
