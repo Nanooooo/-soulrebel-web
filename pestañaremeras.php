@@ -17,74 +17,31 @@
     <title>Soul Rebel</title>
   </head>
   <body>
-    <div class="container-fluid">
-      <header>
-        <div class="row height-50">
-         <div class="col-10">
-          <h5 class="espacio text-center color-texto-blanco  "> <marquee >BIENVENIDOS A SOUL REBEL, UNA MALDITA EMPRESA DE BAJISIMOS RECURSOS.</marquee></h5>
-        </div>
-        <div class="espacio1 col-2">
-         <img class="img-fluid img-bandera float-right p-1" src="assets/images/bandera-ar.png">
-         </div>
-        </div>
-        <div class="row height-150 bg-cornsilk ml-1 mr-1 color-texto-negro">
-          <div class="col-2">
-            <a href="index.html"><img class="img-fluid img-logo pl-3 pt-3" src="assets/images/logo1.png"/></a>
-         </div>
-        <div class="col-10 mt-auto mb-auto">
-         
-                <ul class="list-group list-group-horizontal float-right">
-                <a href="buzos.html"><li class="list-group-item border-0 bg-cornsilk font-weight-bold ">BUZOS</li></a>
-                <li class="list-group-item border-0 bg-cornsilk font-weight-bold"> |</li>
-                <a href="pesta%C3%B1aremeras.html"><li class="list-group-item border-0 bg-cornsilk font-weight-bold">REMERAS</li></a>
-                <li class="list-group-item border-0 bg-cornsilk font-weight-bold">|</li>
-                <li class="list-group-item border-0 bg-cornsilk font-weight-bold">JOGGINGS</li>
-                <li class="list-group-item border-0 bg-cornsilk font-weight-bold">|</li>
-                <li class="list-group-item border-0 bg-cornsilk font-weight-bold">SHORTS</li>
-                <li class="list-group-item border-0 bg-cornsilk font-weight-bold">|</li>
-                <a href="pesta%C3%B1agorros.html"><li class="list-group-item border-0 bg-cornsilk font-weight-bold">GORROS</li></a>
-                <li class="list-group-item border-0 bg-cornsilk font-weight-bold">|</li>
-                <li class="list-group-item border-0 bg-cornsilk font-weight-bold">PILUSOS</li>
-                </ul>
-          </div>
-        </div>
-
-
-      
-    
-     <div class="col-12   ">
-       <div class=" espacio float-right">
-              <a href="ingresar.html?"><h7 class = font-weight-bold>Ingresar</h7></a>
-               <h7 class=font-weight-bold>/</h7>
-               <a href="registrarse.html?"><h7 class= font-weight-bold>Registrarse</h7></a>
-               <i class="color-texto-gris fas fa-search"></i>
-               <i class="color-texto-gris fas fa-shopping-cart"></i>
-      </div>
-     </div>  
-     </header>
-
-
-              <br><br>
-              
-        <main>
+    <div class="container">
+      <?php require('header.html'); ?>
+      <?php require('registro.html'); ?>
+  
+      <br><br>
+     
+    <main>
 
         <div class="card-deck row p-5 bg-cornsilk height-550  ml-1 mr-1">
           <div class="card">
-              <img class="card-img-top" src="assets/images/remeras/palmera.jpg" alt="Card image cap">
-              <div class="card-body bg-cornsilk">
-              <h5 class="card-title color-texto-negro text-center font-weight-bold ">REMERA "PALM"</h5>
-              <p class="card-text color-texto-negro text-center ">$850.</p>
-               <button type=" button" class=" d-block mx-auto  btn btn-dark">Agregar al carrito</button>
-              </div>
+            <img class="card-img-top" src="assets/images/remeras/palmera.jpg" alt="Card image cap">
+            <div class="card-body bg-cornsilk">
+            <h5 class="card-title color-texto-negro text-center font-weight-bold ">REMERA "PALM"</h5>
+            <p class="card-text color-texto-negro text-center ">$850.</p>
+            <button type=" button" class=" d-block mx-auto  btn btn-dark">Agregar al carrito</button>
+          </div>
           </div>
           <div class="card">
             <img class="card-img-top" src="assets/images/remeras/kanguro.jpg" alt="Card image cap">
-            <div class="card-body bg-cornsilk">
-              <h5 class="card-title color-texto-negro text-center font-weight-bold ">   REMERA "KANGAROO"</h5>
-              <p class="card-text color-texto-negro text-center ">$850</p>
-              <button type="button" class=" d-block mx-auto  btn btn-dark">Agregar al carrito</button>
-            </div>
-          </div>
+              <div class="card-body bg-cornsilk">
+                <h5 class="card-title color-texto-negro text-center font-weight-bold ">   REMERA "KANGAROO"</h5>
+                <p class="card-text color-texto-negro text-center ">$850</p>
+                <button type="button" class=" d-block mx-auto  btn btn-dark">Agregar al carrito</button>
+              </div>
+              </div>
             <div class="card">
             <img class="card-img-top" src="assets/images/remeras/conejo.jpg" alt="Card image cap">
             <div class="card-body bg-cornsilk">
@@ -179,8 +136,7 @@
      </main>
      
       <footer>
-       
-
+      <?php require('redes.html'); ?>
       </footer>
     
 

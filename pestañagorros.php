@@ -19,7 +19,10 @@
   <body>
   <div class="container">
     <?php require('header.html'); ?>
+    <?php require('registro.html'); ?>
+
     <br><br>
+
               
           
      
@@ -138,7 +141,7 @@
      </main>
      
       <footer>
-       
+      <?php require('redes.html'); ?>
 
       </footer>
     
