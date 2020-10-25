@@ -23,10 +23,7 @@
 
     <br><br>
 
-              
-          
-     
-        <main>
+      <main>
 
         <div class="card-deck row p-5 bg-cornsilk height-550  ml-1 mr-1">
           <div class="card">
@@ -141,6 +138,7 @@
      </main>
      
       <footer>
+        <br>
       <?php require('redes.html'); ?>
 
       </footer>

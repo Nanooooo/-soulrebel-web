@@ -27,7 +27,7 @@ $tituloPagina = "Soul Rebel";
       <div class="container pb-4">
         <?php require('header.html'); ?>
         <?php require('registro.html'); ?>
-   
+    </div>
   <main>
     <div class="container">
       <div id="carouselExampleIndicators" class="p-5 carousel slide" data-ride="carousel">
@@ -62,14 +62,14 @@ $tituloPagina = "Soul Rebel";
 
           <!-- CARD -->
     <div class="card-deck row p-5 bg-cornsilk height-550  ml-1 mr-1">
-    <div class="card">
-      <img class="card-img-top" src="assets/images/remeras/palmera.jpg" alt="Card image cap">
-        <div class="card-body bg-cornsilk">
-          <h5 class="card-title color-texto-negro text-center font-weight-bold ">REMERA "PALM"</h5>
-          <p class="card-text color-texto-negro text-center ">$850.</p>
-          <button type="button" class="d-block mx-auto btn btn-dark">Agregar al carrito</button>
+      <div class="card">
+         <img class="card-img-top" src="assets/images/remeras/palmera.jpg" alt="Card image cap">
+      <div class="card-body bg-cornsilk">
+        <h5 class="card-title color-texto-negro text-center font-weight-bold ">REMERA "PALM"</h5>
+        <p class="card-text color-texto-negro text-center ">$850.</p>
+        <button type="button" class="d-block mx-auto btn btn-dark">Agregar al carrito</button>
       </div>
-    </div>
+     
     </div>
     <div class="card">
       <img class="card-img-top" src="assets/images/remeras/kanguro.jpg" alt="Card image cap">

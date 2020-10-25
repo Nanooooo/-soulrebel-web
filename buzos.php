@@ -44,7 +44,7 @@
           <div class="card">
             <img class="card-img-top" src="assets/images/buzo/buzo2.jpg" alt="Card image cap">
             <div class="card-body bg-cornsilk">
-              <h5 class="card-title color-texto-negro text-center font-weight-bold ">   BUZO "KANGARO</h5>
+              <h5 class="card-title color-texto-negro text-center font-weight-bold ">   BUZO "KANGARO"</h5>
               <p class="card-text color-texto-negro text-center ">$1500</p>
               <button type="button" class=" d-block mx-auto  btn btn-dark">Agregar al carrito</button>
             </div>
@@ -52,19 +52,18 @@
             <div class="card">
             <img class="card-img-top" src="assets/images/buzo/buzo3.jpg" alt="Card image cap">
             <div class="card-body bg-cornsilk">
-              <h5 class="card-title color-texto-negro text-center font-weight-bold ">BUZO "KANGARO</h5>
+              <h5 class="card-title color-texto-negro text-center font-weight-bold ">BUZO "KANGARO"</h5>
               <p class="card-text color-texto-negro text-center ">    <del>$1700 </del> $1500.</p>
               <button type=" button" class="  d-block mx-auto btn btn-dark">Agregar al carrito</button>
              </div>
              </div>
-          
         </div>
         
         <div class="card-deck row p-5 bg-cornsilk height-550  ml-1 mr-1">
           <div class="card">
              <img class="card-img-top" src="assets/images/buzo/buzo4.jpg" alt="Card image cap">
              <div class="card-body bg-cornsilk">
-              <h5 class="card-title color-texto-negro text-center font-weight-bold ">BUZO "KANGARO</h5>
+              <h5 class="card-title color-texto-negro text-center font-weight-bold ">BUZO "KANGARO"</h5>
               <p class="card-text color-texto-negro text-center ">$1500.</p>
               <button type="  button" class=" d-block mx-auto  btn btn-dark">Agregar al carrito</button>
             </div>
@@ -89,6 +88,7 @@
      </main>
      
       <footer>
+        <br>
       <?php require('redes.html'); ?>
 
       </footer>

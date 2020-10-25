@@ -18,26 +18,47 @@
   </head>
   <body>
     <div class="container-fluid">
+     
       <?php require('header.html'); ?>
-      <?php require('registro.html'); ?>
 
-     <br><br>
-           
-  <main>
-    <div class=" font-weight-bold text-center">
-      <p >Soul Rebel fue fundada en 2018</p>
-      <p> en Bueno Aires, Argentina.</p>
-      <p>Somos una empresa de bajisimo presupuesto</p>
-      <p>destinada a inspirar a un publico de espiritu joven</p>
-      <p>a traves de nuestras humildes y pesimas remeras. </p>
-      <br> <br>
-    </div>
-       <img class="card-img-top" img src="assets/images/TALLE.jpg"   alt="Card image cap">
-  </main>
+        
+     <div class="col-12   ">
+       <div class="espacio float-right">
+           <i class="color-texto-gris fas fa-search"></i>
+           <i class="color-texto-gris fas fa-shopping-cart"></i>
+       </div>
+     </div>
+    
+<form class="dropdown-menu p-4">
+  <div class="form-group">
+    <label for="exampleDropdownFormEmail2">Email address</label>
+    <input type="email" class="form-control" id="exampleDropdownFormEmail2" placeholder="email@example.com">
+  </div>
+  <div class="form-group">
+    <label for="exampleDropdownFormPassword2">Password</label>
+    <input type="password" class="form-control" id="exampleDropdownFormPassword2" placeholder="Password">
+  </div>
+  <div class="form-check">
+    <input type="checkbox" class="form-check-input" id="dropdownCheck2">
+    <label class="form-check-label" for="dropdownCheck2">
+      Remember me
+    </label>
+  </div>
+  <button type="submit" class="btn btn-primary">Sign in</button>
+</form>
+       
+              <br>
+              <br>
+             
+     </div>
+          <br><br><br><br><br><br><br>
+          <br><br><br><br><br><br><br>
+          <br><br><br><br><br><br><br>
+          <br><br><br><br><br><br><br>
+     </main>
      
       <footer>
-        <br>
-        <?php require('redes.html'); ?>
+      <?php require('redes.html'); ?>
       </footer>
     
 

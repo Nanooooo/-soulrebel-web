@@ -23,6 +23,15 @@ body {
 .grisclaro {  
    color: #595959;
 }
+
+.barranueva {  
+    background-color: #1F1E1A;
+    padding: 25px 300px;
+ }
+ .izq {  
+    text-align: left;
+ }
+
 .bg-gris{
     background-color: #1F1E1A;
     
@@ -58,7 +67,7 @@ body {
     
 }
 .img-logo2 {
-    height: 80px;
+    height: 40px;
     
 }
 .color-texto-gris {
@@ -92,7 +101,30 @@ body {
 
 .espacio1{
     padding: 10px 19px;
+    
  }
+ /* ´paginacion */
+ .paginacion {
+    margin:20px 0;
+ }
+ .paginacion ul {
+    list-style:none;
+    text-align: center;
+ }
+
+ .paginacion ul li {
+   display:inline-block;
+   margin-right:10px;
+ }
+
+ .paginacion ul li a {
+    display:block;
+    padding: 10px 20px;
+    color: cornsilk;
+    background: lightslategrey;
+    text-decoration: none;
+ }
+/* ´paginacion */
 .header{
     background: rgba(0,0,0,0.9);
     width: 100%;
@@ -103,7 +135,7 @@ body {
      display: flex;
     justify-content: space-evenly;
 
-menu fijo
+menufijo
  header
     background: rgba(0,0,0,0.9);
     width: 100%;
@@ -135,11 +167,11 @@ menu fijo
 
         }
         .img-logo2{
-           width: 100%;
+           
            height:auto ;
         
              }
-
+             /* buscador */
              @media screen and (max-width:400px){
                 .contenedor {
                     width:100%;
@@ -147,6 +179,60 @@ menu fijo
                   aside { 
                       display: none; 
                   }
-                  }
+                  
 
-     
+                  .ctn-icon.search{
+                      position: absolute;
+                      right: 20px;
+                      height: 100px;
+                      display: flex;
+                      justify-content: center;
+                      align-items: center;
+                   
+                      }
+
+                .ctn-icon.search i{
+                    font-size: 18px;
+                    color: #595959;
+                    cursor: pointer;
+                    transition: all 300ms;
+                   
+                      }
+
+                      .ctn-icon.search i:hover{
+                          color: aquamarine;
+                         }
+
+
+                         .ctn-bars.search{
+                            position:fixed;
+                            top: 80px;
+                            width: 100%;
+                            background: #E9E9E9;
+                            padding: 20px;
+                            z-index: 9;
+                           }
+                           .ctn-bars.search input{
+                            display: block;
+                            width: 1200px;
+                            margin: auto;
+                            padding: 10px;
+                            font-size: 40px;
+                            outline: 0;
+                            
+                           }
+  
+  
+                         
+                           <!-- buscador -->
+
+
+
+                  .header-content
+
+                  position: relative;
+
+
+
+                  
+                   
