@@ -61,59 +61,30 @@ $tituloPagina = "Soul Rebel";
   </div>
 
           <!-- CARD -->
-    <div class="card-deck row p-5 bg-cornsilk height-550  ml-1 mr-1 card">
-      <div class="card">
-         <img class="card-img-top" src="assets/images/remeras/palmera.jpg" alt="Card image cap">
-      <div class="card-body bg-cornsilk">
-        <h5 class="card-title color-texto-negro text-center font-weight-bold ">REMERA "PALM"</h5>
-        <p class="card-text color-texto-negro text-center font-weight-bold">$850.</p>
-        <button type="button" class="d-block mx-auto btn btn-dark">Agregar al carrito</button>
-      </div>
-     
-    </div>
-    <div class="card ">
-      <img class="card-img-top" src="assets/images/remeras/kanguro.jpg" alt="Card image cap">
-      <div class="card-body bg-cornsilk">
-      <h5 class="card-title color-texto-negro text-center font-weight-bold ">REMERA "KANGAROO"</h5>
-      <p class="card-text color-texto-negro text-center font-weight-bold">$850</p>
-      <button type=" float-center button" class=" d-block mx-auto  btn btn-dark">Agregar al carrito</button>
-    </div>
-    </div>
-    <div class="card">
-    <img class="card-img-top" src="assets/images/remeras/conejo.jpg" alt="Card image cap">
-    <div class="card-body bg-cornsilk">
-    <h5 class="card-title color-texto-negro text-center font-weight-bold ">REMERA "CRAZZY RABBIT"</h5>
-    <p class="card-text color-texto-negro text-center font-weight-bold"><del>$1100 </del> $980.</p>
-    <button type=" float-center button" class=" d-block mx-auto  btn btn-dark">Agregar al carrito</button>
-        </div>
-        </div>  
-    </div>
-    <div class="card-deck row p-5 bg-cornsilk height-550  ml-1 mr-1">
-      <div class="card">
-        <img class="card-img-top" src="assets/images/remeras/palmera2.jpg" alt="Card image cap">
-        <div class="card-body bg-cornsilk">
-          <h5 class="card-title color-texto-negro text-center font-weight-bold ">REMERA "PALM"</h5>
-          <p class="card-text color-texto-negro text-center font-weight-bold">$850.</p>
-          <button type=" float-center button" class=" d-block mx-auto  btn btn-dark">Agregar al carrito</button>
-        </div>
-      </div>
-      <div class="card">
-        <img class="card-img-top" src="assets/images/remeras/gorro.jpg" alt="Card image cap">
-        <div class="card-body bg-cornsilk">
-          <h5 class="card-title color-texto-negro text-center  font-weight-bold ">   GORRO "SOUL REBEL"</h5>
-          <p class="card-text color-texto-negro text-center font-weight-bold">  <del>$650 </del>$550</p>
-          <button type=" float-center button" class=" d-block mx-auto  btn btn-dark">Agregar al carrito</button>
-        </div>
-      </div>
-    <div class="card">
-        <img class="card-img-top" src="assets/images/remeras/soul.jpg" alt="Card image cap">
-        <div class="card-body bg-cornsilk">
-        <h5 class="card-title color-texto-negro text-center font-weight-bold ">REMERA "SOUL REBEL"</h5>
-        <p class="card-text color-texto-negro text-center font-weight-bold "> <del>$1100 </del> $980.</p>   
-        <button type="button  " class=" d-block mx-auto btn btn-dark ">Agregar al carrito</button>
-        </div>
-    </div>
-    </div>
+          <div class="container">
+       
+       <div class="card">
+           <img src="assets/images/remeras/palmera.jpg">
+           <h4>Naturaleza</h4>
+           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel, excepturi unde?</p>
+           <a href="#">Leer más</a>
+       </div>
+       
+       <div class="card">
+           <img src="assets/images/remeras/kanguro.jpg">
+           <h4>Comida</h4>
+           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel, excepturi unde?</p>
+           <a href="#">Leer más</a>
+       </div>
+       
+       <div class="card">
+           <img src="assets/images/remeras/conejo.jpg">
+           <h4>Tecnología</h4>
+           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel, excepturi unde?</p>
+           <a href="#">Leer más</a>
+       </div>
+       
+   </div>
          
          <!-- FIN CARD -->
   </main>

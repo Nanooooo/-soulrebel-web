@@ -26,6 +26,7 @@
        <div class="espacio float-right">
            <i class="color-texto-gris fas fa-search"></i>
            <i class="color-texto-gris fas fa-shopping-cart"></i>
+           <input type="text" id="inputSearch" placeholder="Buscar">
        </div>
      </div>
 
@@ -44,10 +45,9 @@
                  <button type="submit" class="btn btn-primary mb-2">Ingresar</button>
               </form>
      </div>
-          <br><br><br><br><br><br><br>
-          <br><br><br><br><br><br><br>
-          <br><br><br><br><br><br><br>
-          <br><br><br><br><br><br><br>
+          <br><br><br><br><br><br><br><br>
+          <br><br><br><br><br><br><br><br>
+          
      </main>
      
       <footer>

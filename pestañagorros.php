@@ -21,7 +21,7 @@
     <?php require('header.html'); ?>
     <?php require('registro.html'); ?>
 
-    <br><br>
+    <br><br><br>
 
       <main>
 

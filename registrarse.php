@@ -23,6 +23,7 @@
     <div class="float-right">
       <i class="color-texto-gris fas fa-search"></i>
       <i class="color-texto-gris fas fa-shopping-cart"></i>
+      <input type="text" id="inputSearch" placeholder="Buscar">
      </div>
    </div>
   
@@ -52,7 +53,7 @@
     </div>
     <div class="form-group">
       <label for="inputAddress">Telefono</label>
-      <input type="number" class="form-control" id="inputAddress" placeholder=" ">
+      <input type="number" class="form-control" id="inputAddress" placeholder="Telefono / celular ">
     </div>
     <div class="form-group">
       <label for="inputAddress2">Direccion</label>
@@ -61,7 +62,7 @@
     <div class="form-row">
       <div class="form-group col-md-6">
         <label for="inputCity">Ciudad</label>
-        <input type="text" class="form-control" id="inputCity">
+        <input type="text" class="form-control" id="inputCity" placeholder=" Ciudad">
       </div>
       <div class="form-group col-md-4">
         <label for="inputState">Localidad</label>
@@ -72,7 +73,7 @@
       </div>
       <div class="form-group col-md-2">
         <label for="inputZip">Codigo Postal</label>
-        <input type="text" class="form-control">
+        <input type="text" class="form-control"placeholder="C.P">
       </div>
     </div>
     <div class="form-group">
